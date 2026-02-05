@@ -9,7 +9,7 @@ The focus of this project is on country-level insights while excluding aggregate
 
 ## Dataset
 
-The analysis uses the Our World in Data (OWID) COVID-19 <a href='https://ourworldindata.org/covid-deaths'> dataset</a>
+The analysis uses the Our World in Data (OWID) COVID-19 <a href='https://ourworldindata.org/covid-deaths'>Dataset:</a>
 
 - coviddeaths — contains daily data on COVID-19 cases, deaths, and population
 - covidvaccinations — contains daily vaccination data including new vaccinations
