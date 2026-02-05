@@ -21,9 +21,9 @@ Notes:
 - Data cleaning ensures accurate country-level statistics.
 
 ## Tools & Technologies
-- Excel for data cleaning, preprocessing, and formatting before importing into MySQL
-- SQL (SELECT, JOIN, CTEs, window functions, views)
-- GitHub for version control and documentation
+- **Excel** for data cleaning, preprocessing, and formatting before importing into MySQL
+- **SQL** (SELECT, JOIN, CTEs, window functions, views)
+- **GitHub** for version control and documentation
 
 ## Analysis Performed
 1. COVID-19 Cases and Deaths
