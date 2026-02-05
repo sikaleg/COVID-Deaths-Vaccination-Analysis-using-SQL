@@ -34,6 +34,7 @@ Notes:
 - Identified countries with highest infection rates relative to population
 - Ranked countries with highest total deaths
 - Aggregated by continent to show continental-level death trends
+  
   <img width="236" height="137" alt="continent" src="https://github.com/user-attachments/assets/bb82e525-7dc4-478d-ae4c-6d51bc5d1129" />
 
 3. Global Summary
