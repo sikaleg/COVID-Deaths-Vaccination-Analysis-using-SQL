@@ -14,9 +14,14 @@ The analysis uses the Our World in Data (OWID) COVID-19 <a href='https://ourworl
 - coviddeaths — contains daily data on COVID-19 cases, deaths, and population
 - covidvaccinations — contains daily vaccination data including new vaccinations
 
-Notes:
+### Notes:
 
 - Numeric fields such as total_deaths and new_vaccinations are stored as text and required casting to numeric types.
 - Aggregate rows (World, continents) were excluded by filtering on iso_code NOT LIKE 'OWID%'.
 - Data cleaning ensures accurate country-level statistics.
+
+## Tools & Technologies
+- Excel for data cleaning, preprocessing, and formatting before importing into MySQL
+- SQL (SELECT, JOIN, CTEs, window functions, views)
+- GitHub for version control and documentation
 
