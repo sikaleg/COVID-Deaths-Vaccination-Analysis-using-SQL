@@ -51,3 +51,16 @@ Notes:
 5. Reusable Views
 - Created the view PercentPopulationVaccinated for easy querying and visualization
 <img width="740" height="316" alt="Screenshot 2026-02-05 133629" src="https://github.com/user-attachments/assets/8b5a8593-1bcc-4a75-a8d6-c3c32eaa9575" />
+
+## Key Insights
+- Countries with the highest population generally had the highest total deaths, but death percentage varies widely.
+- Vaccination rollout speed and adoption differed significantly across regions.
+- Rolling vaccination metrics reveal the rate of vaccine uptake over time at the country level.
+- Aggregating data by continent provides insight into regional trends and the overall pandemic impact.
+
+## Conclusion
+This project demonstrates a full end-to-end COVID-19 data analysis workflow using SQL. Starting from data cleaning and preprocessing in Excel, the project progresses to advanced SQL queries that calculate key metrics such as total cases, deaths, and vaccination rates.
+
+By leveraging window functions, aggregations, CTEs, and views, the analysis provides country-level and continent-level insights while ensuring data accuracy through the exclusion of aggregate regions. The creation of the PercentPopulationVaccinated view also illustrates how SQL can be used to prepare datasets for visualization and further analysis efficiently.
+
+Overall, this project highlights strong data wrangling, analytical thinking, and SQL proficiency
