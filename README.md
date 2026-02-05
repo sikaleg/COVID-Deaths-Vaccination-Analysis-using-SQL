@@ -64,3 +64,6 @@ This project demonstrates a full end-to-end COVID-19 data analysis workflow usin
 By leveraging window functions, aggregations, CTEs, and views, the analysis provides country-level and continent-level insights while ensuring data accuracy through the exclusion of aggregate regions. The creation of the PercentPopulationVaccinated view also illustrates how SQL can be used to prepare datasets for visualization and further analysis efficiently.
 
 Overall, this project highlights strong data wrangling, analytical thinking, and SQL proficiency
+
+## Author
+Godwin Sikale | Data Analyst
