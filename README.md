@@ -39,6 +39,8 @@ Notes:
 3. Global Summary
 - Calculated total global cases and deaths
 - Computed overall global death percentage
+
+  
   <img width="376" height="117" alt="global numbers" src="https://github.com/user-attachments/assets/04a7ce4d-01d5-4cf2-bdbb-28e3943c6b92" />
 
 4. Vaccination Analysis
