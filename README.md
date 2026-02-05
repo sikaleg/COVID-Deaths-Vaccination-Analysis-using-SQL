@@ -14,7 +14,7 @@ The analysis uses the Our World in Data (OWID) COVID-19 <a href='https://ourworl
 - coviddeaths — contains daily data on COVID-19 cases, deaths, and population
 - covidvaccinations — contains daily vaccination data including new vaccinations
 
-### Notes:
+Notes:
 
 - Numeric fields such as total_deaths and new_vaccinations are stored as text and required casting to numeric types.
 - Aggregate rows (World, continents) were excluded by filtering on iso_code NOT LIKE 'OWID%'.
@@ -25,3 +25,22 @@ The analysis uses the Our World in Data (OWID) COVID-19 <a href='https://ourworl
 - SQL (SELECT, JOIN, CTEs, window functions, views)
 - GitHub for version control and documentation
 
+## Analysis Performed
+1. COVID-19 Cases and Deaths
+- Calculated total cases and deaths per country
+- Computed death percentage: likelihood of dying if infected
+- Computed infection percentage relative to population
+2. Country-Level Rankings
+- Identified countries with highest infection rates relative to population
+- Ranked countries with highest total deaths
+- Aggregated by continent to show continental-level death trends
+3. Global Summary
+- Calculated total global cases and deaths
+- Computed overall global death percentage
+4. Vaccination Analysis
+- Joined coviddeaths and covidvaccinations to calculate rolling vaccination metrics
+- Computed rolling number of people vaccinated per country using window functions
+- Calculated percentage of population vaccinated over time
+5. Reusable Views
+Created the view PercentPopulationVaccinated for easy querying and visualization
+<img width="740" height="316" alt="Screenshot 2026-02-05 133629" src="https://github.com/user-attachments/assets/8b5a8593-1bcc-4a75-a8d6-c3c32eaa9575" />
